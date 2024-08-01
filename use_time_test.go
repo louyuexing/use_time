@@ -12,10 +12,4 @@ func TestUseTime(t *testing.T) {
 	fmt.Println(ut.Step().Seconds())
 	time.Sleep(2 * time.Second)
 	fmt.Println(ut.Step().Seconds())
-	time.Sleep(2 * time.Second)
-	fmt.Println(ut.Step().Seconds())
-	time.Sleep(2 * time.Second)
-	fmt.Println(ut.Step().Seconds())
-	time.Sleep(2 * time.Second)
-	fmt.Println(ut.Step().Seconds())
 }
